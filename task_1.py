@@ -2,6 +2,7 @@ from pprint import pprint
 
 cook_book = {}
 with open('example.txt', encoding='UTF8') as file:
+
     while True:
         dish = file.readline().rstrip()
         ingredient_count = file.readline().rstrip()
